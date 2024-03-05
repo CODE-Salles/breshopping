@@ -9,12 +9,12 @@ const Forms = (props) => {
 
     return(
         <section className='forms'>
+            
+
+            <form >
             <div className='header'>
                     <h1>Login</h1>
                 </div>
-
-            <form > {/* onSubmit={aoSalvar} */}
-                
             
             <Campoform label="Email"/>
 
