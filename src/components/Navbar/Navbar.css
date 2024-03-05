@@ -1,0 +1,14 @@
+.navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #1B3D86;
+}
+
+.navbar img{
+      
+        width: fit-content; /* Ajuste conforme necessário */
+        height: fit-content; /* Ajuste conforme necessário */
+        border-radius: 50%; /* Isso cria a máscara redonda */
+        overflow: hidden; /* Isso garante que a imagem seja cortada para se ajustar ao círculo */
+}

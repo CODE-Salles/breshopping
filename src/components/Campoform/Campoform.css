@@ -1,0 +1,20 @@
+.campoform {
+    margin: 24px 0;
+
+}
+.campoform label {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.campoform input {
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0.7);
+    width: 80%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}

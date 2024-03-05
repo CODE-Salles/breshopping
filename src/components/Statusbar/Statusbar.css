@@ -1,0 +1,13 @@
+.statusbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.final {
+    display: flex;
+}
+.statusbar p {
+    color: #fff;
+}
