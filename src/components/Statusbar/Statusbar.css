@@ -7,7 +7,9 @@
 }
 .final {
     display: flex;
+    padding-right: 20px;
 }
 .statusbar p {
     color: #fff;
+    padding-left: 32px;
 }

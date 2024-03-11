@@ -9,10 +9,10 @@ import Forms from './components/Forms';
 function App() {
   return (
     <div className="App">
-      <Statusbar/>
-      <Navbar/>
-      <Footer/>
-      <Forms backgroundColor="#ffce07" color="#000"/>
+      <Statusbar show={true}/>
+      <Navbar show={true}/>
+      <Footer show={true}/>
+      <Forms show={false} backgroundColor="#ffce07" color="#000"/>
     </div>
   );
 }
