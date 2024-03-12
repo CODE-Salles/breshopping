@@ -1,0 +1,23 @@
+.campoContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.campoContato img{
+    width: 90px;
+    height: 90px;
+}
+
+.textoContato {
+    border-radius: 16px;
+    background-color: #FFF;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0.7);
+    width: 240px;
+    border: none;
+    font-size: 24px;
+    margin: 40px;
+    /*box-sizing: border-box;*/
+}

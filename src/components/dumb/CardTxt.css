@@ -1,0 +1,24 @@
+.cardTxt{
+    background-color: #1B3D86;
+    width: 280px;   
+    height:fit-content;
+    border-color: #FCA311;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 16px;
+}
+
+.cardTxt p{
+    padding: 28px 48px;
+    font-size: 16px;
+    color: white;
+}
+
+.fundo{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

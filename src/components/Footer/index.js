@@ -1,14 +1,21 @@
 import './Footer.css'
 import Botao from '../Botao'
+import { useState,useEffect } from 'react'
 
-const Footer = () => {
+const Footer = ({show}) => {
     console.log(Footer)
     const estilobotao = {
         backgroundColor: '#fff',
         color: '#1B3D86',
     }
+    const [showFooter,setshowFooter] = useState(false)
+
+    useEffect(() => {
+        setshowFooter(show);
+    }, [show])
+
     return( 
-            <div className='footer'>
+            showFooter && (<div className='footer'>
                 <div className='coluna1'>
                 <Botao texto="Home" estilo={estilobotao}> </Botao>
                 <Botao texto="Contato" estilo={estilobotao}> </Botao>
@@ -22,7 +29,7 @@ const Footer = () => {
 
 
 
-            </div>
+            </div>)
            )
 
 

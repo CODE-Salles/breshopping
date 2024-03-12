@@ -1,0 +1,32 @@
+.cardEndereco{
+    background-color: #E5E5E5;
+    width: 280px;   
+    height:fit-content;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 16px;
+}
+
+.cardEndereco h2{
+    padding: 0px 48px;
+    font-size: 32px;
+    color: black;
+}
+
+.cardEndereco p{
+    padding-bottom: 20px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-size: 16px;
+    color: black;
+}
+
+.fundo{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
